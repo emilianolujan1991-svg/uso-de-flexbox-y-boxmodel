@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*imagen de fondo para la web*/
+body {
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+/*navbar*/
+nav {
+    background: linear-gradient(black, transparent);
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+nav ul li {
+    list-style: none;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua
+}
+
+/* modelos de camisetas*/
+main div{
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/*logo en pagina de inicio*/
+.lemi{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow( 5px 5px 5px black);
+    background: linear-gradient(black,transparent);
+}
+
+/*parrafo del footer(pie de pagina)*/
+p{
+    color: rgb(197, 253, 243);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large;
+    text-shadow: 0 0 5px black;
+}
+
+footer{
+    background: linear-gradient(transparent,black);
+    padding: 20px 20px;
+    text-align: center;
+    height: 65px;
+   
+}
